@@ -9,6 +9,7 @@ HOME=/home/$USERNAME/
 # setting new hostname
 echo "Setting Hostname"
 hostname "$HOSTNAME"
+echo "$HOSTNAME" > /etc/hostname
 
 # turning off swap
 echo "turning off swap"
